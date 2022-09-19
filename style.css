@@ -1,7 +1,7 @@
 * {
     margin:0;
     padding:0;
-    box-sizing: border-box;
+
     font-family: 'Overpass', sans-serif;
 
 }
@@ -24,8 +24,7 @@ main {
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content:center;
-    gap:30px;
+    justify-content:space-evenly;
     background-color: hsl(214, 23%, 12%);
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -37,7 +36,6 @@ main {
 
 .star {
     margin-left:37.5px;
-    margin-top:60px;
     border:1px solid white;
     padding:15px;
     border-radius: 100px;
@@ -48,6 +46,7 @@ main {
     font-weight:400;
     font-size:30px;
     margin-left:35px;
+    
 
 }
 .para {
@@ -56,4 +55,33 @@ main {
     margin-right:42.5px;
     font-size:15px;
     line-height: 1.5;
+}
+
+.numbers {
+    border:1px solid white;
+    display:flex;
+    width:410px;
+    gap:20px;
+    
+    
+    
+
+}
+
+.one {
+    margin-left:32px;
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+    border:1px solid white;
+    padding:15px;
+    height:20px;
+    width:20px;
+    border-radius: 100%;
+    text-align: center;
+    align-self:center;
+    
 }
