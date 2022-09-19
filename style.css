@@ -126,4 +126,9 @@ main {
     color:white;
     background-color: hsl(213, 19%, 13%);
     position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
 }
