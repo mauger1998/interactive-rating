@@ -29,11 +29,11 @@
     </div>
     <p class="para">Please let us know how we did   with your support request. All feedback is appreciated to help us improve our offering!</p>
     <div class="numbers">
-      <div id="click" class="one stars" onclick="changeColor()">1</div>
-      <div id="click" class="two stars" onclick="changeColor()">2</div>
-      <div id="click" class="three stars" onclick="changeColor()">3</div>
-      <div id="click" class="four stars" onclick="changeColor()">4</div>
-      <div id="click" class="five stars" onclick="changeColor()">5</div>
+      <div id="click1" class="one stars" onclick="changeColor()">1</div>
+      <div id="click2" class="two stars" onclick="changeColor()">2</div>
+      <div id="click3" class="three stars" onclick="changeColor()">3</div>
+      <div id="click4" class="four stars" onclick="changeColor()">4</div>
+      <div id="click5" class="five stars" onclick="changeColor()">5</div>
     </div>
     <div class="button" onclick="openPopup()">
       Submit
@@ -81,10 +81,34 @@
         hide.classList.add("hide");
       }
 
-      let click = document.getElementById("click");
+      let clicked1 = document.getElementById("click1");
 
       function changeColor() {
-        click.classList.add("clicked");
+        clicked1.classList.add("clicked");
+
+      }
+      let clicked2 = document.getElementById("click2");
+
+      function changeColor() {
+        clicked2.classList.add("clicked");
+
+      }
+      let clicked3 = document.getElementById("click3");
+
+      function changeColor() {
+        clicked3.classList.add("clicked");
+
+      }
+      let clicked4 = document.getElementById("click4");
+
+      function changeColor() {
+        clicked4.classList.add("clicked");
+
+      }
+      let clicked5 = document.getElementById("click5");
+
+      function changeColor() {
+        clicked5.classList.add("clicked");
 
       }
 
