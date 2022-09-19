@@ -36,7 +36,6 @@ main {
 
 .star {
     margin-left:37.5px;
-    border:1px solid white;
     padding:15px;
     border-radius: 100px;
     background-color: hsl(213, 19%, 20%) ;
@@ -58,7 +57,6 @@ main {
 }
 
 .numbers {
-    border:1px solid white;
     display:flex;
     width:410px;
     gap:20px;
@@ -76,7 +74,7 @@ main {
 .three,
 .four,
 .five {
-    border:1px solid white;
+    
     padding:15px;
     height:20px;
     width:20px;
@@ -89,7 +87,7 @@ main {
 
 .button {
     display:flex;
-    border:1px solid white;
+    
     align-self: center;
     padding:20px;
     width:300px;
@@ -101,4 +99,17 @@ main {
     align-items: center;
     background: hsl(25, 97%, 53%);
     
+}
+.button:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: white;
+    cursor:pointer;
+}
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover {
+    background-color: hsl(217, 12%, 63%);
+    cursor: pointer;
 }
