@@ -130,5 +130,24 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap:35px;
+}
+
+.img {
+    border:1px solid white;
+}
+
+.message {
+    border:1px solid white;
+    padding:10px;
+    margin:0;
+    width:200px;
+    height:10px;
+    border-radius:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 20%);
+    color:hsl(25, 97%, 53%);
+    
 }
