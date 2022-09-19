@@ -86,3 +86,8 @@ main {
     background-color: hsl(213, 19%, 20%) ;
     
 }
+
+.button {
+    border:1px solid white;
+    align-self: center;
+}
