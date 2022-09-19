@@ -31,6 +31,7 @@ main {
     color:white;
     background-color: hsl(213, 19%, 13%);
     
+    
 }
 /*Card Section End*/
 
@@ -112,4 +113,17 @@ main {
 .five:hover {
     background-color: hsl(217, 12%, 63%);
     cursor: pointer;
+}
+
+
+
+.popup {
+    border:1px solid white;
+    max-width:410px;
+    height:50vh;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    color:white;
+    background-color: hsl(213, 19%, 13%);
+    position: absolute;
 }
