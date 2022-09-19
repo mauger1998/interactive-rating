@@ -8,7 +8,7 @@
 
 body {
     border: 1px solid black;
-    height:100vh;
+    
 }
 main {
     border: 1px solid black;
@@ -63,7 +63,6 @@ main {
 
 .numbers {
     display:flex;
-    width:410px;
     gap:20px;
     
     
