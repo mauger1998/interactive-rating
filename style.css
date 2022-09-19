@@ -131,9 +131,15 @@ main {
     align-items: center;
     gap:25px;
     top:0;
+
     left:25%;
     transform:scale(0.1);
     visibility: hidden;
+}
+
+
+.open-popup {
+    
 }
 
 

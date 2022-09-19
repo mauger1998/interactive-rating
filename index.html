@@ -35,7 +35,7 @@
       <div class="four stars">4</div>
       <div class="five stars">5</div>
     </div>
-    <div class="button">
+    <div class="button" onclick="openPopup()">
       Submit
     </div>
 
@@ -60,7 +60,7 @@
 
     
   </main>
-  <section class="popup">
+  <section class="popup" id="popup">
     <img src="images/thankyou.svg" alt="image" class="img">
     <div class="message">
       <div class="result">You selected ? out of 5</div>
@@ -71,6 +71,14 @@
       We appreciate you taking the time to give a rating. If you ever need more support, 
       don’t hesitate to get in touch!
     </div>
+
+    <script>
+      let popup = document.getElementById("popup");
+
+      function openPopup(){
+        
+      }
+    </script>
 
 
   
