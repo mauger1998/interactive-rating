@@ -83,5 +83,6 @@ main {
     border-radius: 100%;
     text-align: center;
     align-self:center;
+    background-color: hsl(213, 19%, 20%) ;
     
 }
