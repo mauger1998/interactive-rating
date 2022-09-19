@@ -135,6 +135,7 @@ main {
     left:25%;
     transform:scale(0.1);
     visibility: hidden;
+    transition:transform 0.4s, top 0.4s;
 }
 
 
