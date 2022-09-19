@@ -17,7 +17,7 @@ main {
     background: hsl(216, 12%, 8%);
 }
 .card {
-    max-width:400px;
+    max-width:410px;
     height:50vh;
     display:flex;
     flex-direction: column;
@@ -25,6 +25,7 @@ main {
     justify-content:center;
     gap:40px;
     background-color: hsl(214, 23%, 12%);
-    border-radius: 20px;;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     
 }
