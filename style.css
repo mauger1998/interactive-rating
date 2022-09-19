@@ -33,6 +33,10 @@ main {
     
     
 }
+
+.hide {
+    visibility: hidden;
+}
 /*Card Section End*/
 
 .star {

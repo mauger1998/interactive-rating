@@ -22,7 +22,7 @@
 </head>
 <body>
   <main>
-    <section class="card">
+    <section class="card" id="hide">
       <img src="images/icon-star.svg" alt="star" class="star">
     <div class="title">
       How did we do?
@@ -74,9 +74,11 @@
 
     <script>
       let popup = document.getElementById("popup");
+      let hide = document.getElementById("hide");
 
       function openPopup(){
         popup.classList.add("open-popup");
+        hide.classList.add("hide");
       }
 
       let click = document.getElementById("click");
