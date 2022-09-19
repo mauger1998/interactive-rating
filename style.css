@@ -151,3 +151,16 @@ main {
     color:hsl(25, 97%, 53%);
     
 }
+
+.thanks {
+    font-size: 30px;
+}
+
+.popup-para {
+    color:hsl(217, 12%, 63%);
+    border:1px solid white;
+    margin-left:35px;
+    margin-right: 35px;
+    line-height:1.5;
+    text-align:center;
+}
