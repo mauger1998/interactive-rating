@@ -138,6 +138,10 @@ main {
     transition:transform 0.4s, top 0.4s;
 }
 
+.clicked {
+    background-color: hsl(25, 97%, 53%);
+}
+
 
 .open-popup {
     top:25%;

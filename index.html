@@ -29,11 +29,11 @@
     </div>
     <p class="para">Please let us know how we did   with your support request. All feedback is appreciated to help us improve our offering!</p>
     <div class="numbers">
-      <div class="one stars">1</div>
-      <div class="two stars">2</div>
-      <div class="three stars">3</div>
-      <div class="four stars">4</div>
-      <div class="five stars">5</div>
+      <div id="click" class="one stars" onclick="changeColor()">1</div>
+      <div id="click" class="two stars" onclick="changeColor()">2</div>
+      <div id="click" class="three stars" onclick="changeColor()">3</div>
+      <div id="click" class="four stars" onclick="changeColor()">4</div>
+      <div id="click" class="five stars" onclick="changeColor()">5</div>
     </div>
     <div class="button" onclick="openPopup()">
       Submit
@@ -78,6 +78,14 @@
       function openPopup(){
         popup.classList.add("open-popup");
       }
+
+      let click = document.getElementById("click");
+
+      function changeColor() {
+
+      }
+
+
     </script>
 
 
