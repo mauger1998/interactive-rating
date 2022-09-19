@@ -139,7 +139,9 @@ main {
 
 
 .open-popup {
-    
+    top:25%;
+    visibility: visible;
+    transform:scale(1);
 }
 
 
