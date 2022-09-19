@@ -115,7 +115,7 @@ main {
     cursor: pointer;
 }
 
-
+/*Popup*/
 
 .popup {
     max-width:410px;
@@ -130,6 +130,9 @@ main {
     justify-content: center;
     align-items: center;
     gap:25px;
+    top:0;
+    left:25%;
+    transform:scale(0.1);
 }
 
 
