@@ -120,6 +120,7 @@ main {
     cursor: pointer;
 }
 
+
 /*Popup*/
 
 .popup {
@@ -158,6 +159,7 @@ main {
 
 .message {
     padding:10px;
+    padding-top: 13px;;
     margin:0;
     width:200px;
     height:10px;
@@ -173,6 +175,8 @@ main {
 .thanks {
     font-size: 30px;
 }
+
+
 
 .popup-para {
     color:hsl(217, 12%, 63%);
